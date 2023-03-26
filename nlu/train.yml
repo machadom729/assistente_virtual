@@ -1,0 +1,65 @@
+comandos:
+  # Hora
+  - comando:
+    entrada: Que horas são?
+    entidade: time
+    acao: getTime
+  - comando:
+    entrada: Me digas horas.
+    entidade: time
+    acao: getTime
+  - comando:
+    entrada: Eu quero saber as horas.
+    entidade: time
+    acao: getTime
+  # Data
+  - comando:
+    entrada: Qual é a data de hoje?
+    entidade: time
+    acao: getDate
+  - comando:
+    entrada: Data de hoje.
+    entidade: time
+    acao: getDate
+  # Tempo
+  - comando:
+    entrada: Previsão do tempo
+    entidade: weather
+    acao: getWeather
+  - comando:
+    entrada: Como está o clima?
+    entidade: weather
+    acao: getWeather
+  # Open
+  - comando:
+    entrada: Abrir bloco de notas
+    entidade: open
+    acao: notepad
+  - comando:
+    entrada: Abrar o bloco de notas
+    entidade: open
+    acao: notepad
+  - comando:
+    entrada: Abrir chrome
+    entidade: open
+    acao: chrome
+  - comando:
+    entrada: Abra chrome
+    entidade: open
+    acao: chrome
+  - comando:
+    entrada: Abrir calculadora
+    entidade: open
+    acao: calc
+  - comando:
+    entrada: Abra a calculadora
+    entidade: open
+    acao: calc
+  - comando:
+    entrada: Abrir email
+    entidade: open
+    acao: email
+  - comando:
+    entrada: Abra o email
+    entidade: open
+    acao: email

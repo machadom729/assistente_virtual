@@ -1,0 +1,7 @@
+open\email
+open\chrome
+time\getTime
+weather\getWeather
+open\calc
+time\getDate
+open\notepad
